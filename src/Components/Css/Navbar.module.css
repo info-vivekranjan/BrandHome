@@ -1,0 +1,62 @@
+.navCont {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #298ecc;
+  position: fixed;
+  z-index: 1;
+}
+
+.navLeft {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navRight {
+  width: 50%;
+  display: flex;
+  text-align: right;
+  justify-content: space-between;
+}
+
+.logoLink,
+.typeLink {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  font-weight: 500;
+}
+
+.logoLink {
+  font-size: 2vw;
+  font-weight: 600;
+}
+
+.logoLink:hover,
+.typeLink:hover {
+  text-decoration: underline;
+}
+
+.lightModeCont > i,
+.darkModeCont > i {
+  font-size: 2.5vw;
+  cursor: pointer;
+}
+
+.lightModeCont {
+  color: white;
+  padding-right: 25px;
+}
+
+.darkModeCont {
+  color: gold;
+  padding-right: 25px;
+}
+
+.bagCont > i {
+  color: white;
+  font-size: 2.5vw;
+}
